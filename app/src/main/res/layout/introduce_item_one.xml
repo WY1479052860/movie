@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#202549"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="100dp"
+    android:src="@mipmap/ic_launcher"
+    android:id="@+id/introduce_item_one_iv"
+    android:layout_height="120dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:text="张北京"
+        android:id="@+id/introduce_item_one_name"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#BEBABA"
+        android:text="葛优"
+        android:layout_marginTop="10dp"
+        android:id="@+id/introduce_item_one_tt"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#202546"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="312dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="44dp"
+            android:id="@+id/iv"
+            android:src="@mipmap/ic_launcher"
+            android:layout_height="44dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="冷月女神"
+            android:layout_marginLeft="44dp"
+            android:textColor="#fff"
+            android:id="@+id/tv_name"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp"
+            android:text="04-24 09:15"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:id="@+id/tv_time"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="312dp"
+        android:textColor="#fff"
+        android:layout_marginTop="14dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

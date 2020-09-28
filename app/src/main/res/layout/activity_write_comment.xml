@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#202549"
+    tools:context=".activity.WriteCommentActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="写评价"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/white">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/name"
+        android:textSize="15sp"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/white"
+        android:text="悲伤逆流成河">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="我的评分 (2.3分)"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/fen">
+    </TextView>
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:numStars="5"
+        android:id="@+id/rb"
+        android:background="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:rating="4">
+    </RatingBar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="   极差     较差      一般      不错      很好"
+        android:textColor="@android:color/white">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:text="写点评价吧"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="15dp">
+    </TextView>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:id="@+id/tv"
+        android:hint="评论"
+        android:textColor="@android:color/white"
+        android:background="@color/dark_blue_grey">
+    </EditText>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:id="@+id/bu"
+        android:text="提交"
+        android:textColor="@android:color/white"
+        android:background="@color/colormeimei"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp">
+    </Button>
+
+
+</LinearLayout>

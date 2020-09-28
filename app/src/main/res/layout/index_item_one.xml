@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="100dp">
+<ImageView
+    android:layout_width="130dp"
+    android:id="@+id/index_item_one_iv"
+    android:src="@drawable/ic_launcher_background"
+    android:layout_height="100dp"/>
+
+        <TextView
+            android:id="@+id/index_item_one_pf"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="80dp"
+            android:text="9.4分"
+            android:textColor="#fff" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="85dp"
+        android:text="悲伤逆流成河"
+        android:id="@+id/index_item_one_name"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="32dp"
+        android:layout_height="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="购票"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:background="#e8185e"
+        android:textColor="#fff"
+        android:id="@+id/index_item_one_gp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

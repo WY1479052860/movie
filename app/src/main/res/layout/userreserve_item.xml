@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="#1c2243"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/appint_iv"
+        android:layout_width="88dp"
+        android:layout_height="108dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/appint_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="离天空那么近"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/appint_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="上映事件"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/appint_it"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="11人想看"
+            android:textColor="#fff" />
+    </LinearLayout>
+</LinearLayout>
